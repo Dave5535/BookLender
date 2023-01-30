@@ -8,7 +8,6 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-
 @Entity
 public class Details {
     @Id
