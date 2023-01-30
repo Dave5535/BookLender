@@ -30,7 +30,7 @@ private Book book;
         this.loanDate = loanDate;
         this.dueDate = loanDate.plusDays(book.getMaxLoanDays());
         this.book = book;
-        this.borrower = borrower;
+        setBorrower(borrower);
     }
     public void setBorrower(AppUser borrower){
         this.borrower = borrower;
