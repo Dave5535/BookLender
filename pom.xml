@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>se.lexicon</groupId>
-    <artifactId>BookLender</artifactId>
+    <artifactId>G45_BookLender</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>BookLender</name>
-    <description>BookLender</description>
+    <name>G45_BookLender</name>
+    <description>G45_BookLender</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
