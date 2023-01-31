@@ -17,6 +17,7 @@ public class BookLoan {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private LocalDate loanDate;
+
     private LocalDate dueDate;
     private boolean returned;
 @ManyToOne(cascade = {CascadeType.DETACH,CascadeType.PERSIST,CascadeType.REFRESH,CascadeType.MERGE})
